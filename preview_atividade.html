@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview: <%= atividade.titulo %> - Meu Site Educativo</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <!-- Links de navegação para voltar -->
+    <a href="portugues_1_ano.html">Voltar para Português - 1º Ano</a> | <a href="1_ano.html">Voltar para 1º Ano</a> | <a href="index.html">Voltar para Início</a>
+
+    <h1>Preview: <%= atividade.titulo %></h1>
+    <p><%= atividade.descricao %></p>
+
+    <div class="preview-area">
+        <!-- Aqui é onde o PDF de preview será exibido futuramente -->
+        <p>Conteúdo de preview da atividade virá aqui (PDF ou imagem).</p>
+        <p>Por enquanto, este é um placeholder.</p>
+    </div>
+
+    <button class="download-button" onclick="alert('Funcionalidade de download ainda não implementada!')">Baixar Atividade Completa</button>
+
+    <p class="nota-cobranca">Observação: O download da atividade completa é gratuito para professores da escola e pago para outros usuários.</p>
+
+</body>
+</html>

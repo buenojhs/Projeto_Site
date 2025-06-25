@@ -13,11 +13,15 @@
     <p>Aqui você encontrará atividades de Português para o 1º Ano.</p>
 
     <h3>Atividades:</h3>
-    <ul>
-        <li><a href="#">Atividade 1: Leitura e Interpretação de Textos Simples</a></li>
-        <li><a href="#">Atividade 2: Vogais e Consoantes</a></li>
-        <li><a href="#">Atividade 3: Formação de Palavras</a></li>
-    </ul>
+<ul>
+    <% atividades.forEach(function(atividade) { %>
+        <li>
+            <!-- AQUI está a mudança: o href agora usa o preview_url dos dados -->
+            <a href="<%= atividade.preview_url %>"><%= atividade.titulo %></a>
+            <p><%= atividade.descricao %></p>
+        </li>
+    <% }); %>
+</ul>
 
 </body>
 </html>
