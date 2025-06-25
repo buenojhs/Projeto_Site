@@ -1,0 +1,43 @@
+/* Estilos Gerais do Corpo da Página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    margin: 20px; /* Adiciona um espaçamento nas margens da página */
+    background-color: #f4f4f4; /* Cor de fundo suave para a página */
+    color: #333; /* Cor do texto principal */
+    line-height: 1.6; /* Espaçamento entre as linhas do texto */
+}
+
+/* Estilos para Títulos */
+h1, h2, h3 {
+    color: #0056b3; /* Cor azul para os títulos */
+    margin-bottom: 15px; /* Espaçamento abaixo dos títulos */
+}
+
+/* Estilos para Parágrafos */
+p {
+    margin-bottom: 10px; /* Espaçamento abaixo dos parágrafos */
+}
+
+/* Estilos para Listas */
+ul {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+li {
+    background-color: #fff; /* Cor de fundo para cada item da lista */
+    margin-bottom: 8px; /* Espaçamento entre os itens da lista */
+    padding: 12px 15px; /* Preenchimento interno dos itens */
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave para os itens */
+}
+
+/* Estilos para Links */
+a {
+    color: #007bff; /* Cor azul para links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
